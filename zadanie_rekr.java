@@ -15,7 +15,7 @@ public class zadanie_rekr {
                 String linia = null;
                 while ((linia = reader.readLine()) != null) {
                     if (linia != null && !linia.equals("")) {
-                        String wycinek = linia.substring(linia.indexOf("amount:") + 7, linia.indexOf("PLN"));
+                        String wycinek = linia.substring(linia.indexOf("@amount:") + 8, linia.length()-3);
                         if (wycinek != null && !wycinek.equals("")) {
                             wycinek = wycinek.replace(",", ".");
                             kwota += Double.parseDouble(wycinek);
