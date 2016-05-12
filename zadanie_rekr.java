@@ -29,7 +29,7 @@ public class zadanie_rekr {
             }
             System.out.println(String.format("%.2f", kwota));
         } else {
-            System.out.println("brak podanej nazwy pliku!");
+            System.out.println("brak pliku o podanej nazwie!");
         }
     }
 }
