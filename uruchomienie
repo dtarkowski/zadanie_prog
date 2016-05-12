@@ -1,0 +1,2 @@
+javac zadanie_rekr.java
+java "Plik z danymi.txt"
