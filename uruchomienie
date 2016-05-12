@@ -1,2 +1,2 @@
 javac zadanie_rekr.java
-java "Plik z danymi.txt"
+java zadanie_rekr "Plik z danymi.txt"
